@@ -58,8 +58,12 @@ class ClickyGame extends Component {
 
         // If the clicked item is not in wasClicked, then it hasn't been clicked and the score is increased
         if (!this.state.wasClicked.includes(clickedElem)) {
-            // If score and highScore are the same, then there is a new highScore value
-            if (score === highScore) {
+            if (score >= 12) {
+                console.log('You win');
+            }
+
+            // If score is greater than or equal to highScore are the same, then there is a new highScore value
+            if (score >= highScore) {
                 score++;
                 highScore++;
             }
