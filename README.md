@@ -1,3 +1,18 @@
+# Clicky Game
+
+Github live: https://dhuan008.github.io/clicky-game/
+
+## Instructions
+
+Click on a image no more than once. The user's score will be incremented when clicking an image for the first time. The user's score should be reset to 0 if they click the same image more than once.
+
+Every time an image is clicked, the images rendered to the page should shuffle themselves in a random order.
+
+Once the user's score is reset after an incorrect guess, the game should restart.
+
+
+# React Stuff
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
